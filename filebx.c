@@ -21,7 +21,7 @@ FILE *target;
 
 typedef enum  {
      CREATE='w', READ='r', APP='a',
-     UP='a+', RW='r+', OVER='w+',      
+     UP, RW, OVER,      
 } file_operations_t;
 typedef file_operations_t fops;
 
